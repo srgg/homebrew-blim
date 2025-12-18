@@ -7,7 +7,7 @@ class Blim < Formula
   depends_on arch: :arm64
 
   url "https://github.com/srgg/blim/releases/download/v0.0.1/blim_darwin_arm64.tar.gz"
-  sha256 "f4a8fb4e63579e55ec0ad138bad88afdfc85097577256072a916871059556fb8"
+  sha256 "9d5afcacdbfc9b78a04e7cc6414dd8c1ccba7d35723234e1a69760b63d73bd82"
 
   def install
     bin.install "blim"
