@@ -2,12 +2,12 @@ class Blim < Formula
   desc "BLE command-line tool with Lua scripting for device automation"
   homepage "https://github.com/srgg/blim"
   license "MIT"
-  version "0.0.5"
+  version "0.0.6"
 
   depends_on arch: :arm64
 
-  url "https://github.com/srgg/blim/releases/download/v0.0.5/blim_darwin_arm64.tar.gz"
-  sha256 "793954a808451a370331c900c8cbc9921001cb92bdcb583e686ac6de8c4eb91f"
+  url "https://github.com/srgg/blim/releases/download/v0.0.6/blim_darwin_arm64.tar.gz"
+  sha256 "bf32302e76cffd4a40291594e3c1d0bf86ec3fb13a5ad1a51b633265f5545449"
 
   def install
     bin.install "blim"
